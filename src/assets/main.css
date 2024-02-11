@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+}
+
+.btn {
+  display: inline-block;
+  background: #5269b4;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn_danger {
+  background: rgb(187, 55, 55);
+}
